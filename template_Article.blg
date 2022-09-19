@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template_Article.aux
+The style file: apalike.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "Bhandiwad_2021"
+Warning--empty journal in Ahamed2019
+You've used 14 entries,
+            1935 wiz_defined-function locations,
+            582 strings with 7518 characters,
+and the built_in function-call counts, 7601 in all, are:
+= -- 695
+> -- 512
+< -- 0
++ -- 192
+- -- 188
+* -- 774
+:= -- 1350
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 164
+chr.to.int$ -- 14
+cite$ -- 15
+duplicate$ -- 193
+empty$ -- 418
+format.name$ -- 202
+if$ -- 1401
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 14
+newline$ -- 72
+num.names$ -- 42
+pop$ -- 140
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 522
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 1
+while$ -- 50
+width$ -- 0
+write$ -- 181
+(There were 2 warnings)

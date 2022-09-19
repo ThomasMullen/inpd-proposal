@@ -1,0 +1,92 @@
+\begin{thebibliography}{}
+
+\bibitem[Ahamed et~al., 2019]{Ahamed2019}
+Ahamed, T., Costa, A.~C., and Stephens, G.~J. (2019).
+\newblock Capturing the continuous complexity of behavior in c. elegans.
+
+\bibitem[Andalman et~al., 2019]{Andalman2019}
+Andalman, A.~S., Burns, V.~M., Lovett-Barron, M., Broxton, M., Poole, B., Yang,
+  S.~J., Grosenick, L., Lerner, T.~N., Chen, R., Benster, T., Mourrain, P.,
+  Levoy, M., Rajan, K., and Deisseroth, K. (2019).
+\newblock Neuronal dynamics regulating brain and behavioral state transitions.
+\newblock {\em Cell}, 177(4):970--985.e20.
+
+\bibitem[Bagi et~al., 2022]{Bagi2022}
+Bagi, B., Brecht, M., and Sanguinetti-Scheck, J.~I. (2022).
+\newblock Unsupervised discovery of behaviorally relevant brain states in rats
+  playing hide-and-seek.
+\newblock {\em Current Biology}, 32(12):2640--2653.e4.
+
+\bibitem[Bhattacharyya et~al., 2017]{Bhattacharyya2017}
+Bhattacharyya, K., McLean, D.~L., and MacIver, M.~A. (2017).
+\newblock Visual threat assessment and reticulospinal encoding of calibrated
+  responses in larval zebrafish.
+\newblock {\em Current Biology}, 27(18):2751--2762.e6.
+
+\bibitem[Bouchard et~al., 2015]{Bouchard_2015}
+Bouchard, M.~B., Voleti, V., Mendes, C.~S., Lacefield, C., Grueber, W.~B.,
+  Mann, R.~S., Bruno, R.~M., and Hillman, E. M.~C. (2015).
+\newblock Swept confocally-aligned planar excitation ({SCAPE}) microscopy for
+  high-speed volumetric imaging of behaving organisms.
+\newblock {\em Nature Photonics}, 9(2):113--119.
+
+\bibitem[Chen et~al., 2013]{Chen_2013}
+Chen, T.-W., Wardill, T.~J., Sun, Y., Pulver, S.~R., Renninger, S.~L., Baohan,
+  A., Schreiter, E.~R., Kerr, R.~A., Orger, M.~B., Jayaraman, V., Looger,
+  L.~L., Svoboda, K., and Kim, D.~S. (2013).
+\newblock Ultrasensitive fluorescent proteins for imaging neuronal activity.
+\newblock {\em Nature}, 499(7458):295--300.
+
+\bibitem[Chen et~al., 2018]{Chen2018}
+Chen, X., Mu, Y., Hu, Y., Kuan, A.~T., Nikitchenko, M., Randlett, O., Chen,
+  A.~B., Gavornik, J.~P., Sompolinsky, H., Engert, F., and Ahrens, M.~B.
+  (2018).
+\newblock Brain-wide organization of neuronal activity and convergent
+  sensorimotor transformations in larval zebrafish.
+\newblock {\em Neuron}, 100(4):876--890.e5.
+
+\bibitem[Cheng et~al., 2016]{Cheng2016}
+Cheng, R.-K., Krishnan, S., and Jesuthasan, S. (2016).
+\newblock Activation and inhibition of tph2 serotonergic neurons operate in
+  tandem to influence larval zebrafish preference for light over darkness.
+\newblock {\em Scientific Reports}, 6(1).
+
+\bibitem[Dunn et~al., 2016]{Dunn2016}
+Dunn, T.~W., Gebhardt, C., Naumann, E.~A., Riegler, C., Ahrens, M.~B., Engert,
+  F., and Bene, F.~D. (2016).
+\newblock Neural circuits underlying visually evoked escapes in larval
+  zebrafish.
+\newblock {\em Neuron}, 89(3):613--628.
+
+\bibitem[Marques et~al., 2019]{Marques2019}
+Marques, J.~C., Li, M., Schaak, D., Robson, D.~N., and Li, J.~M. (2019).
+\newblock Internal state dynamics shape brainwide activity and foraging
+  behaviour.
+\newblock {\em Nature}, 577(7789):239--243.
+
+\bibitem[Nichols et~al., 2017]{Nichols2017}
+Nichols, A. L.~A., Eichler, T., Latham, R., and Zimmer, M. (2017).
+\newblock A global brain state underlies c. elegans sleep behavior.
+\newblock {\em Science}, 356(6344).
+
+\bibitem[O{\textquotesingle}Malley et~al., 1996]{OMalley1996}
+O{\textquotesingle}Malley, D.~M., Kao, Y.-H., and Fetcho, J.~R. (1996).
+\newblock Imaging the functional organization of zebrafish hindbrain segments
+  during escape behaviors.
+\newblock {\em Neuron}, 17(6):1145--1155.
+
+\bibitem[Voleti et~al., 2019]{Voleti_2019}
+Voleti, V., Patel, K.~B., Li, W., Campos, C.~P., Bharadwaj, S., Yu, H., Ford,
+  C., Casper, M.~J., Yan, R.~W., Liang, W., Wen, C., Kimura, K.~D., Targoff,
+  K.~L., and Hillman, E. M.~C. (2019).
+\newblock Real-time volumetric microscopy of in vivo dynamics and large-scale
+  samples with {SCAPE} 2.0.
+\newblock {\em Nature Methods}, 16(10):1054--1062.
+
+\bibitem[Yokogawa et~al., 2012]{Yokogawa2012}
+Yokogawa, T., Hannan, M.~C., and Burgess, H.~A. (2012).
+\newblock The dorsal raphe modulates sensory responsiveness during arousal in
+  zebrafish.
+\newblock {\em Journal of Neuroscience}, 32(43):15205--15215.
+
+\end{thebibliography}
