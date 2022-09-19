@@ -1,0 +1,102 @@
+\documentclass[]{article}
+\usepackage[left=3cm,top=2.5cm,right=3cm,bottom=2.5cm,headheight=2.5cm]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\pagestyle{fancy}
+
+
+%opening
+\title{Champalimaud INPDP Research Proposal: Understanding neuronal mechanism that drive fear-evoked behavioral strategies.}
+% \author{}
+
+\begin{document}
+
+\maketitle
+
+\section{Overview}
+
+The ability to execute appropriate and adaptive strategies to avoid predators is essential to survival for many animals. Zebrafish tend to elicit c-start escape swims when presented by a threat \cite{OMalley1996}. Studies have shown the kinematics and timing of these escape swims vary depending on the stimulus \cite{Dunn2016, Bhattacharyya2017, Marques2019}. While the immediate threat may have been avoided, the internal state of fear lasts over longer timescales, and such defensive strategies are still elicited long after the initial sensory cue. This tends to follow a cascade of defensive actions corresponding to the evolution animal's perceived threat \cite{Bhandiwad_2021}. As many of these behavioral states throughout this defensive cascade occur without stimulation, it suggests there is an internal mechanism driving state transitions and occupancy \textbf{REF: spontaneous internal state switches}. Recent works have shown internal states to drive animal behavior and motivation over various timescales from minutes to hours. Furthermore, it has shown to govern behavior in many contexts such as hunger, arousal, pain, and quiescence \cite{Marques2019, Andalman2019, Cheng2016}.
+
+
+% Describe a preliminary experiment explaining the state transitions
+A challenge to addressing this has been that these states cannot be elicited in a controlled and reliable form in preparations that are ammendable to large scale physiology \textbf{REF Electric fish}. However, recent work in the zebrafish has developed methods to allow rapid, whole-brain activity recording from behaving animals \cite{Chen_2013}. To reliably induce the fish in an extreme state of fear, it is required to present an unavoidable, controlled aversive stimuli to the larvae. This is achieved using a photosensitive chemical known as optovin. When illuminated by ultraviolet light the molecule unfolds which activates TRAP1 receptors, resulting as a mechanical pain stimulus to the larvae's skin. We have developed a head-restrained assay that allows us to observe the consistent cycling through behavioral states of struggle, immobility to active avoidance swimming. Each cycle of behavioral states is triggered by presenting a transient, nocifensive optovin stimulus to the fish which initiates a struggling. While all fish cycle through a defensive cascade, how these states are sustained and how they transition from tonic immobility to a defensive avoidance state has not been studied in larval zebrafish. In this research project, we will investigate, using high speed behavior tracking, neural recordings and physiological manipulations, how neuronal population dynamics encode these different behavioral states and how they are used to transition through this sequence.
+
+% After the struggle, we identified neural populations who have sustained activity during this immobility period and segmented features of their dynamics which correlate with the time of immobility. 
+
+% while all fish cycle through a defensive cascade, how these states are sustains and how they transition from tonic immobiltiy to a defensive movement state is less explored. In order to identify neuronal population dynamics and neural sequential cells, requires analysis of whole brain neuronal recordings and registration of a fish cohort to a reference brain.
+
+% I have developed a behavioural paradigm which can robustly trigger a sequence of defensive behavioural states varied over multiple timescales. These transitions are generated without sensory information suggesting that the transition in behavioural state is internally driven [sleep-wake deisseroth]. The defensive strategy selected is dependant on the scale of perceived threat [sub ref Burgess]. Behavioural analysis has shown that the evolution through behavioural states varies within fish across multiple aversive stimulation as well as across different fish. Interestingly, while all fish cycle through a defensive cascade, how these states are sustains and how they transition from tonic immobiltiy to a defensive movement state is less explored. In order to identify neuronal population dynamics and neural sequential cells, requires analysis of whole brain neuronal recordings and registration of a fish cohort to a reference brain. The aim of this secondment would be to develop skills in whole brain analysis to establish a neural circuit that encodes switches across behaviour states. This would progress my work to use sparse-labelled lines and targetted ablations to causally link neural populations to persistent behavioual states and state transitions.
+
+\section{Aims}
+
+\subsection{Aim 1}
+The first aim would be to characterize the different behavioral states throughout the defense cascade in freely and head-fixed preparation. Preliminary behavioral analysis has shown that the evolution through behavioral states varies within fish across multiple aversive stimulation as well as across different fish. Interestingly, while all fish cycle through a defensive cascade, how these states are sustains and how they transition from tonic immobility to a defensive movement state is less explored. We will develop quantitative methods to describe the temporal and spatial variation of tail dynamics throughout the defense cascade. As a result we can hopefully separate spontaneous swimming and immobility to these behavior outputs in the context of fear. In order to have a richer description of these behavior states, we shall explore other measurable feature such as posture control, eye movement, and heart rate. This will initially be explored in a high speed behavior set-up recording freely swimming larvae. Work has suggested that during struggles and seizures there is are sustained periods of immobility and a lack of postural control. Moreover, the eye motion can also indicate the level of arousal during this immobile state.  To achieve this aim, we will use a tracking set-up where we can acquire high-resolution images that span over a large area (Kim et al. 2017). This is a piece of hardware that will allow us to compare variation in physiological signatures such as heart rhythm, body posture, muscle tension and eye positioning. Importantly, the same set up could be used to image or manipulate activity in freely moving fish (Aim 2).
+
+% Aim 2
+\subsection{Aim 2}
+For our second aim, we will investigate the brain-wide neural dynamics associated with defensive behavior sequences. To establish this, we will develop a head-fixed preparation in which the fish respond to UV driven obtain stimulus, and image the fish in a SCAPE (swept confocally aligned planar illumination) microscope, that allows the fast volumetric rates necessary to capture the dynamics associated with rapid sequences of escapes and minimizes light exposure to the eyes \cite{Bouchard_2015, Voleti_2019}. 
+
+We will image whole-brain activity in $1)$ lines that express a calcium indicator in all neurons to obtain an unbiased picture of the areas involved and the dynamics of activity across areas and $2)$ lines that express specifically in the serotonergic raphe nucleus (using the tph2 and pet1 promoters). Previous work has shown that the raphe has a role in modulating the kinematics of movement and behavioral state, in the context of prey capture, lighting conditions and aversive conditioning \cite{Andalman2019, Yokogawa2012, Marques2019}. In order to effectively analyze large neuronal dataset from the SCAPE microscope will need a preprocessing pipeline in order to extract 3D regions of interest that have been clustered based on time series correlation. 
+
+To understand how the zebrafish transitions out of immobility, we shall then use computational methods to identify neurons that are predictive of transitions between behavioral states. Having extracted fluorescent regions of interest throughout the brain, we would explore the dynamics of population assemblies that describes the most variation across the extracted traces. We would then try to identify low dimensional oscillations and see how they can be separated based on the characterized behavioral states (defined in aim 1). We would then try to fit a model which can describe this switch in behavioral states from the neuronal dynamics, and project this region back onto a reference brain atlas to identify neuronal population that controls this behavioral switching dynamics \cite{Nichols2017, Ahamed2019, Bagi2022, Chen2018}.
+
+% Aim 3
+\subsection{Aim 3}
+Finally, having identified neurons that switch the states of the behavior we will use specific perturbation of activity or structure to establish causal links. For this we will approach the problem with a suite of complementary methods. 1) Single cell laser ablation. Using a two-photon microscope with a second, high power laser path, we can ablate individual neurons selectively based on activity or genetic markers. 2) Optogenetics. In cases where we have a specific genetic promoter (e.g. the raphe neurons) we can express optogenetic effectors that allow reversible up or down regulation of activity with spatial and temporal specificity during behavior. 3) Pharmacology. We will test the role of different neurotransmitter pathways with drugs such as PCPA, which depletes serotonin.
+
+\section{Short-term objectives (Year 1-2)}
+\begin{itemize}
+    \item Month 0-1: Literature review on: internal states shaping behavior sequences.
+    \item Month 1-6: Collect data from pan-neuronal labelled transgenic lines in a head-restrained assay and develop neuronal pre-processing pipeline.
+    \item Month 6-8: Collect free-swimming data and identify phenotypical cues across different behavior strategies e.g. eye rotation, bout sequences, postural control (using eye separation as a reference).
+    \item Month 8-12: Analyze pre-process neuronal data.
+    \begin{enumerate}
+        \item Split into trials and have a look-up table to map volume frames to different behavioral states.
+        \item Map each fish brain to a reference atlas.
+        \item Identify neuronal populations that correlate with different behavioral states.
+        \item Fit a population dynamics model to infer neuronal population that modulate behavior states.
+    \end{enumerate}
+    \item Month 12-18: Collect data from sparse labelled transgenic lines (e.g. raphe population) in a head-fixed assay.
+    \item Month 18-22: Collect data from ablated populations in a head-fixed assay.
+    \item Month 22-24: Finalize figures and draft up report.
+\end{itemize}
+
+\section{Collaboration and Contributions}
+\begin{itemize}
+    \item Neural analysis Collaboration with Ruben Portuges lab for ideas and methods. In order to identify neuronal population dynamics and neural sequential cells, requires analysis of whole brain neuronal recordings and registration of a fish cohort to a reference brain. The aim of this secondment would be to develop skills in whole brain analysis to establish a neural circuit that encodes switches across behavior states.
+    \item The restraint of head-fixed behavioral assays may impair the ability of the fish to display the full range of naturalistic behavior, particularly immobility. For this reason, we will pursue a parallel approach using a tracking microscope, where the fish is free to move in an unrestricted fashion and neuronal data can be acquired. Other labs in the Zenith ETN have been developing a similar microscope, so there is the possibility of doing a short placement to acquire data if this develops first.
+\end{itemize}
+
+\section{Training}
+\begin{itemize}
+    \item Attend Zenith ETN training courses: Computational neuroscience, Behavior, Optics, Hackathon.
+    \item Attend INPDP $1^{\text{st}}$ year teaching course and rotation.
+    \item Attend IMBIZO 2022 Summer School.
+    \item Teach Assistant at CAJAL course when at the CCU.
+\end{itemize}
+% \section{Outcomes} 
+
+\section{Project management}
+
+\begin{itemize}
+    \item Have monthly appraisal meetings with my supervisor. These meetings will outline long term and short-term successes throughout the month; challenges encountered and if/how they were resolved; issues I would like to raise (personal, research, technical, institutional); and priorities for the next month.
+    \item I will also have annual meetings with a thesis committee where I will discuss my progress to external lab Principal Investigators. Thesis Committee will consist of Claire Wyart (Zenith) and Marta Moita (Champalimaud).
+\end{itemize}
+
+
+% \section{Project timeline}
+
+
+
+
+\bibliographystyle{apalike}
+%\bibliographystyle{unsrt} % Use for unsorted references  
+\bibliography{references} % Path to your References.bib file
+
+
+\end{document}
